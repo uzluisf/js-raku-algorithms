@@ -1,7 +1,5 @@
 # Complex Number
 
-_Read this in other languages:_
-[français](README.fr-FR.md).
 
 A **complex number** is a number that can be expressed in the
 form `a + b * i`, where `a` and `b` are real numbers, and `i` is a solution of

@@ -1,7 +1,5 @@
 # Shellsort
 
-_Read this in other languages:_
-[_Português_](README.pt-BR.md).
 
 Shellsort, also known as Shell sort or Shell's method, 
 is an in-place comparison sort. It can be seen as either a 

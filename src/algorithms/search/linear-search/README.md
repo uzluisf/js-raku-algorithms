@@ -1,7 +1,5 @@
 # Linear Search
 
-_Read this in other languages:_
-[Português brasileiro](README.pt-BR.md).
 
 In computer science, linear search or sequential search is a 
 method for finding a target value within a list. It sequentially 

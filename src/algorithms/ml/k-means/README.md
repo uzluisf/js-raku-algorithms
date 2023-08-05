@@ -1,7 +1,5 @@
 # k-Means Algorithm
 
-_Read this in other languages:_
-[_Português_](README.pt-BR.md)
 
 The **k-Means algorithm** is an unsupervised Machine Learning algorithm. It's a clustering algorithm, which groups the sample data on the basis of similarity between dimensions of vectors.
 

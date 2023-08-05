@@ -1,45 +1,16 @@
-# JavaScript Algorithms and Data Structures
+# Data Structures and Algorithms
 
-> 🇺🇦 UKRAINE [IS BEING ATTACKED](https://war.ukraine.ua/) BY RUSSIAN ARMY. CIVILIANS ARE GETTING KILLED. RESIDENTIAL AREAS ARE GETTING BOMBED.
-> - Help Ukraine via:
->   - [Serhiy Prytula Charity Foundation](https://prytulafoundation.org/en/)
->   - [Come Back Alive Charity Foundation](https://savelife.in.ua/en/donate-en/)
->   - [National Bank of Ukraine](https://bank.gov.ua/en/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi)
-> - More info on [war.ukraine.ua](https://war.ukraine.ua/) and [MFA of Ukraine](https://twitter.com/MFA_Ukraine)
-
-<hr/>
-
-[![CI](https://github.com/trekhleb/javascript-algorithms/workflows/CI/badge.svg)](https://github.com/trekhleb/javascript-algorithms/actions?query=workflow%3ACI+branch%3Amaster)
-[![codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/branch/master/graph/badge.svg)](https://codecov.io/gh/trekhleb/javascript-algorithms)
-![repo size](https://img.shields.io/github/repo-size/trekhleb/javascript-algorithms.svg)
-
-This repository contains JavaScript based examples of many
+This repository contains JavaScript and Raku based examples of many
 popular algorithms and data structures.
 
 Each algorithm and data structure has its own separate README
 with related explanations and links for further reading (including ones
 to YouTube videos).
 
-_Read this in other languages:_
-[_简体中文_](README.zh-CN.md),
-[_繁體中文_](README.zh-TW.md),
-[_한국어_](README.ko-KR.md),
-[_日本語_](README.ja-JP.md),
-[_Polski_](README.pl-PL.md),
-[_Français_](README.fr-FR.md),
-[_Español_](README.es-ES.md),
-[_Português_](README.pt-BR.md),
-[_Русский_](README.ru-RU.md),
-[_Türkçe_](README.tr-TR.md),
-[_Italiana_](README.it-IT.md),
-[_Bahasa Indonesia_](README.id-ID.md),
-[_Українська_](README.uk-UA.md),
-[_Arabic_](README.ar-AR.md),
-[_Tiếng Việt_](README.vi-VN.md),
-[_Deutsch_](README.de-DE.md)
+**NOTE:** This project is solely pedagogical, don't use the code here in
+production as-is.
 
-*☝ Note that this project is meant to be used for learning and researching purposes
-only, and it is **not** meant to be used for production.*
+Forked from [trekhleb's javascript-algorithms](https://github.com/trekhleb/javascript-algorithms).
 
 ## Data Structures
 
@@ -48,7 +19,8 @@ be accessed and modified efficiently. More precisely, a data structure is a coll
 values, the relationships among them, and the functions or operations that can be applied to
 the data.
 
-`B` - Beginner, `A` - Advanced
+<details>
+  <summary><h3>List of data structures</h3></summary>
 
 * `B` [Linked List](src/data-structures/linked-list)
 * `B` [Doubly Linked List](src/data-structures/doubly-linked-list)
@@ -69,14 +41,15 @@ the data.
 * `A` [Bloom Filter](src/data-structures/bloom-filter)
 * `A` [LRU Cache](src/data-structures/lru-cache/) - Least Recently Used (LRU) cache
 
+</details>
+
 ## Algorithms
 
 An algorithm is an unambiguous specification of how to solve a class of problems. It is
 a set of rules that precisely define a sequence of operations.
 
-`B` - Beginner, `A` - Advanced
-
-### Algorithms by Topic
+<details>
+  <summary><h3>List of algorithms by topic</h3></summary>
 
 * **Math**
   * `B` [Bit Manipulation](src/algorithms/math/bits) - set/get/update/clear bits, multiplication/division by two, make negative etc.
@@ -185,7 +158,10 @@ a set of rules that precisely define a sequence of operations.
   * `A` [N-Queens Problem](src/algorithms/uncategorized/n-queens)
   * `A` [Knight's Tour](src/algorithms/uncategorized/knight-tour)
 
-### Algorithms by Paradigm
+</details>
+
+<details>
+  <summary><h3>List of algorithms by paradigm</h3></summary>
 
 An algorithmic paradigm is a generic method or approach which underlies the design of a class
 of algorithms. It is an abstraction higher than the notion of an algorithm, just as an
@@ -254,6 +230,8 @@ a least-cost solution to the problem, in order to discard partial solutions with
 lowest-cost solution found so far. Normally BFS traversal in combination with DFS traversal of state-space
 tree is being used.
 
+</details>
+
 ## How to use this repository
 
 **Install all dependencies**
@@ -291,7 +269,10 @@ rm -rf ./node_modules
 npm i
 ```
 
-Also make sure that you're using a correct Node version (`>=16`). If you're using [nvm](https://github.com/nvm-sh/nvm) for Node version management you may run `nvm use` from the root folder of the project and the correct version will be picked up.
+Also make sure that you're using a correct Node version (`>=16`). If you're
+using [nvm](https://github.com/nvm-sh/nvm) for Node version management you may
+run `nvm use` from the root folder of the project and the correct version will
+be picked up.
 
 **Playground**
 
@@ -361,14 +342,9 @@ Below is the list of some of the most used Big O notations and their performance
 | **Counting sort**     | n + r           | n + r               | n + r               | n + r     | Yes       | r - biggest number in array |
 | **Radix sort**        | n * k           | n * k               | n * k               | n + k     | Yes       | k - length of longest key |
 
-## Project Backers
-
-> You may support this project via ❤️️ [GitHub](https://github.com/sponsors/trekhleb) or ❤️️ [Patreon](https://www.patreon.com/trekhleb).
-
-[Folks who are backing this project](https://github.com/trekhleb/javascript-algorithms/blob/master/BACKERS.md) `∑ = 1`
-
 ## Author
 
-[@trekhleb](https://trekhleb.dev)
-
-A few more [projects](https://trekhleb.dev/projects/) and [articles](https://trekhleb.dev/blog/) about JavaScript and algorithms on [trekhleb.dev](https://trekhleb.dev)
+* [@trekhleb](https://trekhleb.dev). A few more
+  [projects](https://trekhleb.dev/projects/) and
+  [articles](https://trekhleb.dev/blog/) about JavaScript and algorithms on
+  [trekhleb.dev](https://trekhleb.dev)

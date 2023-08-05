@@ -1,7 +1,5 @@
 # k-Nearest Neighbors Algorithm
 
-_Read this in other languages:_
-[_Português_](README.pt-BR.md)
 
 The **k-nearest neighbors algorithm (k-NN)** is a supervised Machine Learning algorithm. It's a classification algorithm, determining the class of a sample vector using a sample data.
 
